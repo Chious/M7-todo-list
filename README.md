@@ -30,7 +30,7 @@ _This is frist submit of M7_
 ### Links
 
 - Solution URL(branch: main): [https://github.com/Chious/M7-todo-list](https://github.com/Chious/M7-todo-list)
-- Live Site URL:
+- Live Site URL: [https://sensational-mochi-ea38fd.netlify.app](https://sensational-mochi-ea38fd.netlify.app)
 
 ## My process
 
