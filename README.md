@@ -1,5 +1,7 @@
 # Todo List X MVC with React
 
+_This is frist submit of M7_
+
 ## Table of contents
 
 - [Overview](#overview)
@@ -23,11 +25,11 @@
 
 ### Screenshot
 
-![](./screenshot.jpg)
+![](./screenshot.png)
 
 ### Links
 
-- Solution URL:
+- Solution URL(branch: main): [https://github.com/Chious/M7-todo-list](https://github.com/Chious/M7-todo-list)
 - Live Site URL:
 
 ## My process
@@ -85,7 +87,9 @@ For example:
 
 ### Useful resources
 
-- [How to use React Router](https://www.youtube.com/watch?v=Bi0PCx8kZP4&list=PLODGJVEE6JCwCOTcJjs58iV5e6iVIBrpO&index=6)
+- [How to use React Router(Youtube Video)](https://www.youtube.com/watch?v=Bi0PCx8kZP4&list=PLODGJVEE6JCwCOTcJjs58iV5e6iVIBrpO&index=6)
+- [useState](https://react.dev/reference/react/useState) -- help to define event and handler by React.
+- [react-script build conflict(Private Discord Discussion)](https://discord.com/channels/925294714217967647/1159024050476167230/1159024050476167230)
 
 ## Author
 

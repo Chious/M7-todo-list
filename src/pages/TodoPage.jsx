@@ -80,6 +80,49 @@ const TodoPage = () => {
     });
   };
 
+  const handleChangeMode = ({ id, isEdit }) => {
+    setTodos((prevTodos) => {
+      return prevTodos.map((todo) => {
+        if (todo.id === id) {
+          return {
+            ...todo,
+            isEdit,
+          };
+        }
+
+        return { ...todo, isEdit: false };
+      });
+    });
+  };
+
+  const handleSave = ({ id, title }) => {
+    setTodos((prevTodos) => {
+      return prevTodos.map((todo) => {
+        if (todo.id === id) {
+          return {
+            ...todo,
+            id,
+            title,
+            isEdit: false,
+          };
+        }
+        return todo;
+      });
+    });
+  };
+
+  //Count Remaining
+  const countRemain = () => {
+    const remainingTasks = todos.filter((todo) => !todo.isDone);
+    return remainingTasks.length;
+  };
+
+  //Delete items from todo
+  const handleDelete = ({ id }) => {
+    const remainingTasks = todos.filter((todo) => todo.id !== id);
+    setTodos(remainingTasks);
+  };
+
   return (
     <div>
       TodoPage
@@ -90,8 +133,14 @@ const TodoPage = () => {
         onAddTodo={handleTodo}
         onKeyDone={handleKeyDowm}
       />
-      <TodoCollection todos={todos} onToggleDone={handleToggleDone} />
-      <Footer />
+      <TodoCollection
+        todos={todos}
+        onChangeMode={handleChangeMode}
+        onToggleDone={handleToggleDone}
+        onSave={handleSave}
+        onDelete={handleDelete}
+      />
+      <Footer countRemain={countRemain} />
     </div>
   );
 };
