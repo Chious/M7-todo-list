@@ -4,26 +4,62 @@ import {
   AuthButton,
   AuthLinkText,
 } from 'components/common/auth.styled';
+
 import { ACLogoIcon } from 'assets/images';
 import { AuthInput } from 'components';
+import { useState } from 'react';
+import { Link } from 'react-router-dom';
+import { login } from 'api/auth';
 
 const LoginPage = () => {
+  const [userName, setUserName] = useState('');
+  const [password, setPassword] = useState('');
+
+  const handleClick = async () => {
+    if (userName.length === 0) {
+      return;
+    }
+    if (password.length === 0) {
+      return;
+    }
+
+    const { success, authToken } = await login({
+      userName,
+      password,
+    });
+    if (success) {
+      localStorage.setItem('authToken', authToken);
+    }
+  };
+
   return (
     <AuthContainer>
       <div>
         <ACLogoIcon />
       </div>
       <h1>登入 Todo</h1>
-
       <AuthInputContainer>
-        <AuthInput />
+        <AuthInput
+          label={'帳號'}
+          value={userName}
+          placeholder={'請輸入帳號'}
+          onChange={(nameInputValue) => setUserName(nameInputValue)}
+        />
       </AuthInputContainer>
 
       <AuthInputContainer>
-        <AuthInput />
+        <AuthInput
+          type="password"
+          label={'密碼'}
+          value={password}
+          placeholder={'請輸入密碼'}
+          onChange={(passwordInputValue) => setPassword(passwordInputValue)}
+        />
       </AuthInputContainer>
-      <AuthButton>登入</AuthButton>
-      <AuthLinkText>註冊</AuthLinkText>
+      <AuthButton onClick={handleClick}>登入</AuthButton>
+      <Link to="/signup">
+        <AuthLinkText>註冊</AuthLinkText>
+      </Link>
     </AuthContainer>
   );
 };
