@@ -1,25 +1,25 @@
 {
   "files": {
-    "main.css": "/Chious/M7-todo-list/static/css/main.81e9703d.chunk.css",
-    "main.js": "/Chious/M7-todo-list/static/js/main.3f5435c8.chunk.js",
-    "main.js.map": "/Chious/M7-todo-list/static/js/main.3f5435c8.chunk.js.map",
-    "runtime-main.js": "/Chious/M7-todo-list/static/js/runtime-main.1c2abdc4.js",
-    "runtime-main.js.map": "/Chious/M7-todo-list/static/js/runtime-main.1c2abdc4.js.map",
-    "static/js/2.5d4b5dd8.chunk.js": "/Chious/M7-todo-list/static/js/2.5d4b5dd8.chunk.js",
-    "static/js/2.5d4b5dd8.chunk.js.map": "/Chious/M7-todo-list/static/js/2.5d4b5dd8.chunk.js.map",
-    "static/js/3.5c47cdb7.chunk.js": "/Chious/M7-todo-list/static/js/3.5c47cdb7.chunk.js",
-    "static/js/3.5c47cdb7.chunk.js.map": "/Chious/M7-todo-list/static/js/3.5c47cdb7.chunk.js.map",
-    "index.html": "/Chious/M7-todo-list/index.html",
-    "static/css/main.81e9703d.chunk.css.map": "/Chious/M7-todo-list/static/css/main.81e9703d.chunk.css.map",
-    "static/js/2.5d4b5dd8.chunk.js.LICENSE.txt": "/Chious/M7-todo-list/static/js/2.5d4b5dd8.chunk.js.LICENSE.txt",
-    "static/media/ac-logo.f4e0f3cb.svg": "/Chious/M7-todo-list/static/media/ac-logo.f4e0f3cb.svg",
-    "static/media/check-active.95ca055c.svg": "/Chious/M7-todo-list/static/media/check-active.95ca055c.svg",
-    "static/media/check-circle.30720b46.svg": "/Chious/M7-todo-list/static/media/check-circle.30720b46.svg",
-    "static/media/check-hover.5e00062b.svg": "/Chious/M7-todo-list/static/media/check-hover.5e00062b.svg"
+    "main.css": "/M7-todo-list/static/css/main.81e9703d.chunk.css",
+    "main.js": "/M7-todo-list/static/js/main.3f5435c8.chunk.js",
+    "main.js.map": "/M7-todo-list/static/js/main.3f5435c8.chunk.js.map",
+    "runtime-main.js": "/M7-todo-list/static/js/runtime-main.5ec57d24.js",
+    "runtime-main.js.map": "/M7-todo-list/static/js/runtime-main.5ec57d24.js.map",
+    "static/js/2.299c5723.chunk.js": "/M7-todo-list/static/js/2.299c5723.chunk.js",
+    "static/js/2.299c5723.chunk.js.map": "/M7-todo-list/static/js/2.299c5723.chunk.js.map",
+    "static/js/3.5c47cdb7.chunk.js": "/M7-todo-list/static/js/3.5c47cdb7.chunk.js",
+    "static/js/3.5c47cdb7.chunk.js.map": "/M7-todo-list/static/js/3.5c47cdb7.chunk.js.map",
+    "index.html": "/M7-todo-list/index.html",
+    "static/css/main.81e9703d.chunk.css.map": "/M7-todo-list/static/css/main.81e9703d.chunk.css.map",
+    "static/js/2.299c5723.chunk.js.LICENSE.txt": "/M7-todo-list/static/js/2.299c5723.chunk.js.LICENSE.txt",
+    "static/media/ac-logo.f4e0f3cb.svg": "/M7-todo-list/static/media/ac-logo.f4e0f3cb.svg",
+    "static/media/check-active.95ca055c.svg": "/M7-todo-list/static/media/check-active.95ca055c.svg",
+    "static/media/check-circle.30720b46.svg": "/M7-todo-list/static/media/check-circle.30720b46.svg",
+    "static/media/check-hover.5e00062b.svg": "/M7-todo-list/static/media/check-hover.5e00062b.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.1c2abdc4.js",
-    "static/js/2.5d4b5dd8.chunk.js",
+    "static/js/runtime-main.5ec57d24.js",
+    "static/js/2.299c5723.chunk.js",
     "static/css/main.81e9703d.chunk.css",
     "static/js/main.3f5435c8.chunk.js"
   ]
