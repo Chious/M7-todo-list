@@ -104,6 +104,27 @@ For example:
   }}
 />
 ```
+3. How to authorization access token by http request in `axois` (as copy from comment in [stackoverflow](https://stackoverflow.com/questions/40988238/sending-the-bearer-token-with-axios))
+
+```
+const config = {
+    headers: { Authorization: `Bearer ${token}` }
+};
+
+const bodyParameters = {
+   key: "value"
+};
+
+Axios.post( 
+  'http://localhost:8000/api/v1/get_token_payloads',
+  bodyParameters,
+  config
+).then(console.log).catch(console.log);
+```
+
+The first parameter is the URL. <br/>
+The second is the JSON body that will be sent along your request. <br/>
+The third parameter are the headers (among other things). Which is JSON as well.
 
 ### Useful resources
 
